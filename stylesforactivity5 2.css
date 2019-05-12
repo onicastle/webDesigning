@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+div#heading{
+	border: thick solid darkcyan;
+	padding: 10px;
+}
+body{font-family: "Comic Sans";}
+
+div#intro{
+	border: thin solid #b8860b;
+	margin: 40px;
+	padding: 20px;
+}
+div#topic{
+	border: thick dotted darkgreen;
+	margin: 60px;
+	padding: 20px;
+}
+class.large{
+	font-size: 200%;
+}
+h1{font-family: 'Montserrat', sans-serif;}
+
+span.bluetext{
+	color:darkcyan;
+	font-weight: bold;
+	font-family: arial;
+}
+div#topic p{
+	text-align: justify;
+	lineheight: 2em;
+	text-indent: 3em;
+}
+
+div#source{
+	border: 1px solid blue;
+	text-align: center;
+}
+
+a:link{color:green;}
+a:visited{color:orange;}
+a:hover{color: black; background-color: aqua;}
+
+h1, h2, h3::firstline { font-variant: small-caps;}
+
+::selection{
+	color: red;
+	background: bisque;
+}
+
+h1,h2{text-align: center;
+	letter-spacing: 8px;
+}
+
+.italic{font-style: italic;}
+
+.super{
+	vertical-align: super;
+	font-weight: bold;
+}
